@@ -1,0 +1,21 @@
+html { box-sizing: border-box; }
+*, *::before, *:after {box-sizing: inherit;}
+
+
+#car {
+  width: auto;
+  height: auto;
+  min-width: 320px;
+  min-height: 240px;
+  max-width: 1280px;
+  max-height: 960px;
+  border: 1px solid blue;
+}
+
+img {
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px; 
+  margin-left: 10px;
+}
+
