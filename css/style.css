@@ -87,6 +87,17 @@ nav li a {
     padding: 10px 10px;
 }
 
+.banner {
+  background-color: yellow;
+  top: 0;
+  left: 0;
+  right:0;
+  position: relative;
+  
+  
+}
+
+
 /* End Header */
 
 /* Footer */
