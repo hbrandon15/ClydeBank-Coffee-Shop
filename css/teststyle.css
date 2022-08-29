@@ -19,3 +19,26 @@ img {
   margin-left: 10px;
 }
 
+
+/* Styling Navigation Bar */
+
+.main-nav{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.main-nav li {float: left;}
+.main-nav li a {
+  display: block;
+  color: #eee;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
