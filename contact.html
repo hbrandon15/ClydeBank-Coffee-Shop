@@ -9,7 +9,6 @@
 <body>
 <header>
     <div class="container">
-	<p>This page is under construction
         <div class="title-header">
             <div class="logo">
                 <a href="index.html">
@@ -31,9 +30,24 @@
         </ul>
     </div>
 </nav>
+
 <main>
     <div class="container">
+      <h1>Contact Us</h1>
 
+      <!-- form element for Name -->
+      <form action="contact.php" method="post">
+        <label for="name">Name</label><br>
+        <input type="text" name="name" required><br><br>
+
+      <!-- form element for Email -->
+      <label for="email">Email</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <!-- form element for Message -->
+      <label for="message">Message</label><br>
+      <textarea name="message" rows="5" cols="60" maxlength="2000"></textarea><br><br>
+      </form>
     </div>
 </main>
 <footer>
