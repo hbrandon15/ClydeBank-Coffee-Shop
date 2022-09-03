@@ -1,0 +1,13 @@
+#radial-gradient{
+  width: 300px;
+  height: 300px; 
+  background-color:black;
+  background-image: radial-gradient(black, white);
+}
+#linear-gradient{
+  width: 300px;
+  height: 300px; 
+  background-color:black;
+  background-image: linear-gradient(red, orange,yellow, green, blue, indigo, violet);
+
+}
